@@ -1,15 +1,43 @@
 import 'dart:io';
-/**void main() {
+
+/*void main() {
   var firstName = "Ngwa";
   var lastName = "Jude";
 
   print(firstName + '' + lastName);
 }
-//string concartenation **/
+//string concartenation 
 
 main() {
   stdout.writeln('what is your name');
   String? name = stdin.readLineSync();
 
   print('my name is $name');
+}
+//taking input from users using dart:io*/
+main() {
+  int amount = 100;
+  var amount2 = 200; // int variable type
+
+  print('amount: $amount | amount2: $amount2 \n');
+
+  double dAmount = 100.11;  //double variable type
+  var dAmount2 = 200.22;
+
+  print('dAmount: $dAmount | dAmount2: $dAmount2 \n');
+
+  String name1 = 'Jude';    //string data type
+  var name2 = 'Achangwa';
+  print('my name is: $name1 $name2 \n');
+
+  bool isitTrue1 = true;   //boolean
+  var isitTrue = false;
+
+  print('isitTrue1:$isitTrue1 | isitTrue:$isitTrue \n');
+
+  dynamic weakVariable = 100;   //dynamic (can take difffrent values at programm runtime)
+  print('weakvariable:$weakVariable \n');
+
+  weakVariable = "dart prgraming";
+  print('weakVariable:$weakVariable \n');
 }
