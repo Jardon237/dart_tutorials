@@ -1,3 +1,4 @@
+import 'dart:ffi';
 import 'dart:io';
 
 /*void main() {
@@ -14,7 +15,7 @@ main() {
 
   print('my name is $name');
 }
-//taking input from users using dart:io*/
+//taking input from users using dart:io
 main() {
   int amount = 100;
   var amount2 = 200; // int variable type
@@ -40,4 +41,14 @@ main() {
 
   weakVariable = "dart prgraming";
   print('weakVariable:$weakVariable \n');
+}*/
+
+//multiline string are acessed using ''' or """"
+main() {
+  var onr = int.parse('1');
+  assert(onr == 1); //converting a string to an interger
+
+  // ignore: unused_local_variable
+  var moon = double.parse("1");
+  assert(moon == 1); 
 }
