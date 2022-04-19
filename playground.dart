@@ -41,7 +41,7 @@ main() {
 
   weakVariable = "dart prgraming";
   print('weakVariable:$weakVariable \n');
-}*/
+}
 
 //multiline string are acessed using ''' or """"
 main() {
@@ -51,4 +51,15 @@ main() {
   // ignore: unused_local_variable
   var moon = double.parse("1");
   assert(moon == 1); 
+} */
+
+main() {
+  const num1 = 0;
+  const aconnststring = 'a constant string';
+  const aConstBool = true;
+
+  print(num1.runtimeType);
+  print(aconnststring.runtimeType);
+  print(aConstBool.runtimeType);
 }
+//using the const key word to assign constant 
