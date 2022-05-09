@@ -75,4 +75,26 @@ main() {
 
   String oneAsString = 1.toString();
   assert(oneAsString == 1);
+
+  int num = 10 + 2;
+  num = num - 2;
+
+  print(num);
+
+  num = num % 5;
+
+  if (num == 0) {
+    //other relational operations include >=,<=, !=
+    print('zero');
+  }
+  num = 100;
+  num *= 2;
+  print(num);
+
+  //working with urinary operators
+  ++num;
+  num--;
+  num += 1;
+  num -=1;
+
 }
