@@ -1,15 +1,16 @@
 import 'dart:ffi';
 import 'dart:io';
-
-/*void main() {
+/*
+void main() {
   var firstName = "Ngwa";
   var lastName = "Jude";
 
   print(firstName + '' + lastName);
 }
 //string concartenation 
-
-main() {
+void main(List<String> args) {
+  
+}() {
   stdout.writeln('what is your name');
   String? name = stdin.readLineSync();
 
@@ -51,7 +52,7 @@ main() {
   // ignore: unused_local_variable
   var moon = double.parse("1");
   assert(moon == 1); 
-} */
+} 
 
 main() {
   const num1 = 0;
@@ -62,4 +63,10 @@ main() {
   print(aconnststring.runtimeType);
   print(aConstBool.runtimeType);
 }
-//using the const key word to assign constant 
+//using the const key word to assign constant  */
+
+main() {
+  var age = 35;
+  var str = 'my age is  $age';
+  print(str);
+}
