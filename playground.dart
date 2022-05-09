@@ -95,6 +95,13 @@ main() {
   ++num;
   num--;
   num += 1;
-  num -=1;
+  num -= 1;
 
+  //logical operator
+  if (num > 200 && num < 203) {
+    print('200 to 202');
+  }
+  if (num == 0 || num < 100) {
+    print('none');
+  }
 }
