@@ -69,4 +69,10 @@ main() {
   var age = 35;
   var str = 'my age is  $age';
   print(str);
+
+  var one = int.parse('1');
+  assert(one == '1');
+
+  String oneAsString = 1.toString();
+  assert(oneAsString == 1);
 }
